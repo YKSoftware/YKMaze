@@ -50,8 +50,9 @@
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
-    <Reference Include="YKToolkit.Controls">
-      <HintPath>C:\Program Files\YKSoftware\YKToolkit\YKToolkit.Controls.dll</HintPath>
+    <Reference Include="YKToolkit.Controls, Version=1.11.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\DLL\YKToolkit.Controls.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

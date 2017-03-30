@@ -12,7 +12,7 @@ using System.Windows;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("YKSoftware")]
 [assembly: AssemblyProduct("YKDungeonaholic")]
-[assembly: AssemblyCopyright("Copyright © 2015 YKSoftware")]
+[assembly: AssemblyCopyright("Copyright © 2015- YKSoftware")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

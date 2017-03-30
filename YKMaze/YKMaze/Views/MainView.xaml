@@ -11,10 +11,13 @@
            xmlns:vm="clr-namespace:YKMaze.ViewModels"
            d:DataContext="{d:DesignInstance vm:MainViewModel}"
            Icon="pack://application:,,,/Views/Resources/icon.ico"
-           WindowStartupLocation="CenterScreen"
            Title="{Binding Title}"
            Width="280"
            Height="500"
+           WindowStartupLocation="CenterScreen"
+           MaximizeButtonVisibility="Collapsed"
+           RestoreButtonVisibility="Collapsed"
+           ResizeMode="NoResize"
            b:KeyDownBehavior.Callback="{Binding KeyDownCallback}"
            >
     <YK:Window.Resources>

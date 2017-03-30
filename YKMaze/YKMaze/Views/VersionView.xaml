@@ -10,13 +10,11 @@
            Title="バージョン情報"
            Width="500"
            SizeToContent="Height"
-           IsConfirmedClose="False"
+           IsClosingConfirmationEnabled="False"
            MaximizeButtonVisibility="Collapsed"
            RestoreButtonVisibility="Collapsed"
            MinimizeButtonVisibility="Collapsed"
            TopmostButtonVisibility="Collapsed"
-           ThemeChangeButtonVisibility="Collapsed"
-           VersionButtonVisibility="Collapsed"
            ResizeMode="NoResize"
            >
 

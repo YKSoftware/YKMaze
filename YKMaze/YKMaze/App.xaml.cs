@@ -135,7 +135,7 @@
         /// <param name="button">ダイアログに表示するボタンのパターンを指定します。</param>
         /// <param name="image">ダイアログに表示するアイコンの種別を指定します。</param>
         /// <returns>ダイアログの結果を返します。</returns>
-        public YKToolkit.Controls.MessageBoxResult ShowMessage(string message, string title, YKToolkit.Controls.MessageBoxButton button, YKToolkit.Controls.MessageBoxImage image)
+        public MessageBoxResult ShowMessage(string message, string title, MessageBoxButton button, MessageBoxImage image)
         {
             return YKToolkit.Controls.MessageBox.Show(message, title, button, image);
         }
